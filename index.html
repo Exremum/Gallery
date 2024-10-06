@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1>Фотогалерея</h1>
+        <div class="gallery-container">
+            <img src="src/imges/image1.jpg" alt="Image 1" class="gallery-item">
+            <img src="src/imges/image2.jpg" alt="Image 2" class="gallery-item">
+            <img src="src/imges/image1.jpg" alt="Image 3" class="gallery-item">
+            <img src="src/imges/image2.jpg" alt="Image 4" class="gallery-item">
+            <img src="src/imges/image1.jpg" alt="Image 5" class="gallery-item">
+            <img src="src/imges/image2.jpg" alt="Image 5" class="gallery-item">
+        </div>
+        <div class="lightbox" id="lightbox">
+            <span class="close" id="close">&times;</span>
+            <span class="prev" id="prev">&#10094;</span>
+            <img class="lightbox-content" id="lightboxImage">
+            <span class="next" id="next">&#10095;</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
